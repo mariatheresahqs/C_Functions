@@ -51,7 +51,7 @@ int main(){
 
 
 /*
-    Fibonacci without optimization
+    Fibonacci without optimization O(2^n)
 */
 int fibonacci(int n){
     countFibonacci++;
@@ -76,6 +76,7 @@ void iterativeFibonacci(int* resultsArray, int n){
 }
 
 /*
+* O(n)
 * Simple recursive calls (in a tree structure) would involve multiple repeat calls 
 * performing the same calculation.
 *
